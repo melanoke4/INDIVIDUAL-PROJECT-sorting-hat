@@ -1,0 +1,26 @@
+TODO: #5 You must use a loop other than a for loop
+
+TODO: #6 Your JS file should be comprised of functions, no actions should happen in your code outside of a function except for your initial init() function
+
+Add Button Hints
+
+TODO: #12 When a new student is added an object should be created and that object should be pushed into an array of students that then prints to the dom.
+
+Expel Button Hints
+
+TODO: #13 Think of a way you can expel students without just hiding those divs on the page. This would mean when the button is clicked you modify the array of students and pass the new array into your print to dom function. Double hint - put a unique id in the student object when you create them.
+
+OPTIONAL 
+TODO: House Colors: The color of the student's card changes depending on which house they were sorted.
+
+TODO: Card Ordering: Sort the student cards by some criteria (i.e. alphabetically by name, by house)
+
+TODO: Voldermort's Army: Create a separate container of cards that hold the cards for students that have been expelled. These should be styled differently from Hogwarts students.
+
+Definition of Done
+TODO: All items are completed in getting started
+TODO: MVP, defined by the Acceptance Criteria, has been completed
+TODO: The title of your application is visible in the browser tab
+TODO: The project has been deployed
+TODO: Loom video has been created
+TODO: README.md has been updated
