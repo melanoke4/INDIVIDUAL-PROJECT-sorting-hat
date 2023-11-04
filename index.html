@@ -9,7 +9,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="test.css" />
+    <link rel="stylesheet" href="main.css" />
     <title>Sorting Hat</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
@@ -20,42 +20,47 @@
       crossorigin="anonymous"
     ></script>
 
-    <header class="text-center">sorting hat</header>
+    <header class="text-center">Sorting Hat</header>
 
-    <div class="card" id="arounddiv">
-      <div class="col-sm-4 col-lg-2">
+    <div class="arounddiv">
+      <div class="">
         <p>
-            <button class="button " data-modal="modalOne">
-                
-                <img
-          src="/images/sortinghaticon.png"
-          class="card-img-top"
-          alt="..."
-        /> 
-        <p class="card-img-overlay top-50">SORT</p>
-      click hat to sort  </button>
-      </p>
+          <button class="button border-bottom-0" data-modal="modalOne">
+            <img
+              src="/images/1663890067_23799_gif-url.gif"
+              class="card-img"
+              alt="..."
+            />
+            
+            <p >click hat to add student</p>
+        </button>
+        <!-- class="card-img-overlay top-50" -->
+    </p>
+        
       </div>
     </div>
     <div id="modalOne" class="modal">
       <div class="modal-content">
         <div class="contact-form">
           <a class="close">&times;</a>
-          <form action="#">
+          <form action="#" id="student-form">
             <input
-              class="fname"
+              class="name"
               type="text"
               name="name"
               placeholder="What's your name?"
               required
             />
 
-            <button>submit</button>
+            <button type="submit">submit</button>
           </form>
         </div>
       </div>
     </div>
+    <div id="app" class="arounddiv text-center rounded row-cols-sm-4">
+      
+    </div>
 
-    <script src="test.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
