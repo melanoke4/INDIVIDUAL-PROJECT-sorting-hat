@@ -21,7 +21,7 @@ const addNewStudent = function (event) {
   students.push(newStudent);
   updateStudentsHtml();
   document.querySelector(".modal").style.display = "none";
-  document.querySelector("form").reset()
+  document.querySelector("form").reset();
 };
 form.addEventListener("submit", addNewStudent);
 

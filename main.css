@@ -52,8 +52,10 @@ img {
   }
   .modal-content {
     margin: 50px auto;
-    border: 1px solid #999;
+    border: 1px solid #131010;
     width: 60%;
+    background-color: #f0c75e;
+    max-width: 300px;
   }
   h2,
   p {
@@ -69,22 +71,23 @@ img {
   form {
     padding: 25px;
     margin: 25px;
-    box-shadow: 0 2px 5px #f5f5f5;
-    background: #eee;
+    box-shadow: 0 2px 5px #181414;
+    background: #222f5b
+    ;
   }
   input,
   textarea {
     width: 90%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #1c87c9;
+    border: 1px solid #ae0001;
     outline: none;
   }
   .contact-form button {
     width: 100%;
     padding: 10px;
     border: none;
-    background: #1c87c9;
+    background: #2a623d;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
@@ -93,7 +96,7 @@ img {
     background: #2371a0;
   }
   .close {
-    color: #aaa;
+    color: #ae0001;
     float: right;
     font-size: 28px;
     font-weight: bold;
